@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200%;
+}
+
+.bg {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    height: 200vh;
+    display: flex;
+}
+
+.navbar{
+    color: green;
+    position: fixed;
+    font-size: 150px;
+    width: 100%;
+    padding: 2%;
+    transition: all 1s;
+}
+
+.bgColor {
+    color: red ;
+    transition: all 1s;
+    background-color: lightgray;
+    height: 10%;
+    font-size: medium;
+}
+
+li{
+    display: inline;
+    font-size: 5rem;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+
+#logo{ 
+    width: 10%;
+}
